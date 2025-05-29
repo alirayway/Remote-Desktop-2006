@@ -1,0 +1,99 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: rdHooks - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+rdHooks.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: Winrd - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\waseem\LOCALS~1\Temp\RSP4E.tmp" with contents
+[
+wsock32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib /nologo /subsystem:windows /incremental:no /pdb:"Debug/Winrd.pdb" /map:"Debug/Winrd.map" /debug /machine:I386 /out:"Debug/Winrd.exe" /pdbtype:sept /libpath:"\\shallot\omni\release\lib\x86_nt_3.5" 
+.\Debug\d3des.obj
+.\Debug\Log.obj
+.\Debug\MinMax.obj
+.\Debug\rdAbout.obj
+.\Debug\rdAcceptDialog.obj
+.\Debug\rdAdvancedProperties.obj
+.\Debug\rdauth.obj
+.\Debug\rdBuffer.obj
+.\Debug\rdClient.obj
+.\Debug\rdConnDialog.obj
+.\Debug\rdDesktop.obj
+.\Debug\rdEncodeCoRRE.obj
+.\Debug\rdEncodeHexT.obj
+.\Debug\rdEncoder.obj
+.\Debug\rdEncodeRRE.obj
+.\Debug\rdEncodeTight.obj
+.\Debug\rdEncodeZlib.obj
+.\Debug\rdEncodeZlibHex.obj
+.\Debug\rdHTTPConnect.obj
+.\Debug\rdInstHandler.obj
+.\Debug\rdKeymap.obj
+.\Debug\rdMenu.obj
+.\Debug\rdProperties.obj
+.\Debug\rdRegion.obj
+.\Debug\rdServer.obj
+.\Debug\rdService.obj
+.\Debug\rdSockConnect.obj
+.\Debug\rdTimedMsgBox.obj
+.\Debug\RectList.obj
+.\Debug\stdhdrs.obj
+.\Debug\translate.obj
+.\Debug\VSocket.obj
+.\Debug\Winrd.obj
+.\Debug\Winrd.res
+.\Debug\rdHooks.lib
+.\Debug\omnithread_rtd.lib
+.\Debug\zlib.lib
+.\libjpeg\Debug\libjpeg.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\waseem\LOCALS~1\Temp\RSP4E.tmp"
+<h3>Output Window</h3>
+Linking...
+LINK : warning LNK4075: ignoring /EDITANDCONTINUE due to /INCREMENTAL:NO specification
+LINK : warning LNK4098: defaultlib "LIBCD" conflicts with use of other libs; use /NODEFAULTLIB:library
+
+
+
+<h3>Results</h3>
+Winrd.exe - 0 error(s), 2 warning(s)
+<h3>
+--------------------Configuration: libjpeg - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+libjpeg.lib - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: omnithread - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+omnithread_rtd.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: zlib - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+zlib.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

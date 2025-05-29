@@ -1,0 +1,1751 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: VNCHooks - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x809 /fo"../Release/VNCHooks.res" /d "NDEBUG" "G:\VNC\vnc_winsrc\winvnc\VNCHooks\VNCHooks.rc"" 
+Creating temporary file "C:\DOCUME~1\ali\LOCALS~1\Temp\RSPE.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "\\shallot\omni\release\include" /D "NDEBUG" /D "WIN32" /D "_WINDOWS" /D _WIN32_WINNT=0x0400 /Fp"../Release/VNCHooks.pch" /YX /Fo"../Release/" /Fd"../Release/" /FD /c 
+"G:\VNC\vnc_winsrc\winvnc\VNCHooks\VNCHooks.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ali\LOCALS~1\Temp\RSPE.tmp" 
+Creating temporary file "C:\DOCUME~1\ali\LOCALS~1\Temp\RSPF.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib /nologo /subsystem:windows /dll /incremental:no /pdb:"../Release/VNCHooks.pdb" /machine:I386 /def:".\VNCHooks.def" /out:"../Release/VNCHooks.dll" /implib:"../Release/VNCHooks.lib" /libpath:"\\shallot\omni\release\lib\x86_nt_4.0" 
+\VNC\vnc_winsrc\winvnc\Release\VNCHooks.obj
+\VNC\vnc_winsrc\winvnc\Release\VNCHooks.res
+]
+Creating command line "link.exe @C:\DOCUME~1\ali\LOCALS~1\Temp\RSPF.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+VNCHooks.cpp
+Linking...
+   Creating library ../Release/VNCHooks.lib and object ../Release/VNCHooks.exp
+
+
+
+<h3>Results</h3>
+VNCHooks.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: VNCHooks - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x809 /fo"../Debug/VNCHooks.res" /d "_DEBUG" "G:\VNC\vnc_winsrc\winvnc\VNCHooks\VNCHooks.rc"" 
+Creating temporary file "C:\DOCUME~1\ali\LOCALS~1\Temp\RSP13.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "\\shallot\omni\release\include" /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D _WIN32_WINNT=0x0400 /Fp"../Debug/VNCHooks.pch" /YX /Fo"../Debug/" /Fd"../Debug/" /FD /c 
+"G:\VNC\vnc_winsrc\winvnc\VNCHooks\VNCHooks.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ali\LOCALS~1\Temp\RSP13.tmp" 
+Creating temporary file "C:\DOCUME~1\ali\LOCALS~1\Temp\RSP14.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:"../Debug/VNCHooks.pdb" /debug /machine:I386 /def:".\VNCHooks.def" /out:"../Debug/VNCHooks.dll" /implib:"../Debug/VNCHooks.lib" /pdbtype:sept 
+\VNC\vnc_winsrc\winvnc\Debug\VNCHooks.obj
+\VNC\vnc_winsrc\winvnc\Debug\VNCHooks.res
+]
+Creating command line "link.exe @C:\DOCUME~1\ali\LOCALS~1\Temp\RSP14.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+VNCHooks.cpp
+Linking...
+   Creating library ../Debug/VNCHooks.lib and object ../Debug/VNCHooks.exp
+
+
+
+<h3>Results</h3>
+VNCHooks.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: VNCHooks - Win32 Purify--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x809 /fo"../Purify/VNCHooks.res" /d "_DEBUG" "G:\VNC\vnc_winsrc\winvnc\VNCHooks\VNCHooks.rc"" 
+Creating temporary file "C:\DOCUME~1\ali\LOCALS~1\Temp\RSP18.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D _WIN32_WINNT=0x0400 /Fp"../Purify/VNCHooks.pch" /YX /Fo"../Purify/" /Fd"../Purify/" /FD /c 
+"G:\VNC\vnc_winsrc\winvnc\VNCHooks\VNCHooks.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ali\LOCALS~1\Temp\RSP18.tmp" 
+Creating temporary file "C:\DOCUME~1\ali\LOCALS~1\Temp\RSP19.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:"../Purify/VNCHooks.pdb" /debug /machine:I386 /def:".\VNCHooks.def" /out:"../Purify/VNCHooks.dll" /implib:"../Purify/VNCHooks.lib" /pdbtype:sept 
+\VNC\vnc_winsrc\winvnc\Purify\VNCHooks.obj
+\VNC\vnc_winsrc\winvnc\Purify\VNCHooks.res
+]
+Creating command line "link.exe @C:\DOCUME~1\ali\LOCALS~1\Temp\RSP19.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+VNCHooks.cpp
+Linking...
+   Creating library ../Purify/VNCHooks.lib and object ../Purify/VNCHooks.exp
+
+
+
+<h3>Results</h3>
+VNCHooks.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: VNCHooks - Win32 No_CORBA--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"..\No_CORBA/VNCHooks.res" /d "NDEBUG" "G:\VNC\vnc_winsrc\winvnc\VNCHooks\VNCHooks.rc"" 
+Creating temporary file "C:\DOCUME~1\ali\LOCALS~1\Temp\RSP1D.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "NDEBUG" /D "WIN32" /D "_WINDOWS" /D _WIN32_WINNT=0x0400 /Fp"..\No_CORBA/VNCHooks.pch" /YX /Fo"..\No_CORBA/" /Fd"..\No_CORBA/" /FD /c 
+"G:\VNC\vnc_winsrc\winvnc\VNCHooks\VNCHooks.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ali\LOCALS~1\Temp\RSP1D.tmp" 
+Creating temporary file "C:\DOCUME~1\ali\LOCALS~1\Temp\RSP1E.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib /nologo /subsystem:windows /dll /incremental:no /pdb:"..\No_CORBA/VNCHooks.pdb" /machine:I386 /def:".\VNCHooks.def" /out:"..\No_CORBA/VNCHooks.dll" /implib:"..\No_CORBA/VNCHooks.lib" 
+\VNC\vnc_winsrc\winvnc\No_CORBA\VNCHooks.obj
+\VNC\vnc_winsrc\winvnc\No_CORBA\VNCHooks.res
+]
+Creating command line "link.exe @C:\DOCUME~1\ali\LOCALS~1\Temp\RSP1E.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+VNCHooks.cpp
+Linking...
+   Creating library ..\No_CORBA/VNCHooks.lib and object ..\No_CORBA/VNCHooks.exp
+
+
+
+<h3>Results</h3>
+VNCHooks.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: VNCHooks - Win32 Profile--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x809 /fo"../Profile/VNCHooks.res" /d "_DEBUG" "G:\VNC\vnc_winsrc\winvnc\VNCHooks\VNCHooks.rc"" 
+Creating temporary file "C:\DOCUME~1\ali\LOCALS~1\Temp\RSP22.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D _WIN32_WINNT=0x0400 /Fp"../Profile/VNCHooks.pch" /YX /Fo"../Profile/" /Fd"../Profile/" /FD /c 
+"G:\VNC\vnc_winsrc\winvnc\VNCHooks\VNCHooks.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ali\LOCALS~1\Temp\RSP22.tmp" 
+Creating temporary file "C:\DOCUME~1\ali\LOCALS~1\Temp\RSP23.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib /nologo /subsystem:windows /dll /profile /debug /machine:I386 /def:".\VNCHooks.def" /out:"../Profile/VNCHooks.dll" /implib:"../Profile/VNCHooks.lib" 
+\VNC\vnc_winsrc\winvnc\Profile\VNCHooks.obj
+\VNC\vnc_winsrc\winvnc\Profile\VNCHooks.res
+]
+Creating command line "link.exe @C:\DOCUME~1\ali\LOCALS~1\Temp\RSP23.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+VNCHooks.cpp
+Linking...
+   Creating library ../Profile/VNCHooks.lib and object ../Profile/VNCHooks.exp
+
+
+
+<h3>Results</h3>
+VNCHooks.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: VNCHooks - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x809 /fo"../Release/VNCHooks.res" /d "NDEBUG" "G:\VNC\vnc_winsrc\winvnc\VNCHooks\VNCHooks.rc"" 
+Creating temporary file "C:\DOCUME~1\ali\LOCALS~1\Temp\RSP27.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "\\shallot\omni\release\include" /D "NDEBUG" /D "WIN32" /D "_WINDOWS" /D _WIN32_WINNT=0x0400 /Fp"../Release/VNCHooks.pch" /YX /Fo"../Release/" /Fd"../Release/" /FD /c 
+"G:\VNC\vnc_winsrc\winvnc\VNCHooks\VNCHooks.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ali\LOCALS~1\Temp\RSP27.tmp" 
+Creating temporary file "C:\DOCUME~1\ali\LOCALS~1\Temp\RSP28.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib /nologo /subsystem:windows /dll /incremental:no /pdb:"../Release/VNCHooks.pdb" /machine:I386 /def:".\VNCHooks.def" /out:"../Release/VNCHooks.dll" /implib:"../Release/VNCHooks.lib" /libpath:"\\shallot\omni\release\lib\x86_nt_4.0" 
+\VNC\vnc_winsrc\winvnc\Release\VNCHooks.obj
+\VNC\vnc_winsrc\winvnc\Release\VNCHooks.res
+]
+Creating command line "link.exe @C:\DOCUME~1\ali\LOCALS~1\Temp\RSP28.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+VNCHooks.cpp
+Linking...
+   Creating library ../Release/VNCHooks.lib and object ../Release/VNCHooks.exp
+<h3>
+--------------------Configuration: omnithread - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ali\LOCALS~1\Temp\RSP2C.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /I "." /I "\\shallot\omni\release\include" /D "NDEBUG" /D "WIN32" /D "_WINDOWS" /D "__WIN32__" /D "__NT__" /D "__x86__" /D "_OMNITHREAD_DLL" /Fp"../Release/omnithread.pch" /YX /Fo"../Release/" /Fd"../Release/" /FD /c 
+"G:\VNC\vnc_winsrc\winvnc\omnithread\omnithread\nt.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ali\LOCALS~1\Temp\RSP2C.tmp" 
+Creating temporary file "C:\DOCUME~1\ali\LOCALS~1\Temp\RSP2D.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib /nologo /subsystem:windows /dll /incremental:no /pdb:"../Release/omnithread_rt.pdb" /machine:I386 /out:"../Release/omnithread_rt.dll" /implib:"../Release/omnithread_rt.lib" /libpath:"\\shallot\omni\release\lib\x86_nt_4.0" 
+\VNC\vnc_winsrc\winvnc\Release\nt.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\ali\LOCALS~1\Temp\RSP2D.tmp"
+<h3>Output Window</h3>
+Compiling...
+nt.cpp
+Linking...
+   Creating library ../Release/omnithread_rt.lib and object ../Release/omnithread_rt.exp
+<h3>
+--------------------Configuration: zlib - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/zlib.res" /d "NDEBUG" "G:\VNC\vnc_winsrc\winvnc\zlib\zlib.rc"" 
+Creating temporary file "C:\DOCUME~1\ali\LOCALS~1\Temp\RSP31.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "ZLIB_EXPORTS" /D "ZLIB_DLL" /Fp"Release/zlib.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"G:\VNC\vnc_winsrc\winvnc\zlib\adler32.c"
+"G:\VNC\vnc_winsrc\winvnc\zlib\compress.c"
+"G:\VNC\vnc_winsrc\winvnc\zlib\crc32.c"
+"G:\VNC\vnc_winsrc\winvnc\zlib\deflate.c"
+"G:\VNC\vnc_winsrc\winvnc\zlib\infblock.c"
+"G:\VNC\vnc_winsrc\winvnc\zlib\infcodes.c"
+"G:\VNC\vnc_winsrc\winvnc\zlib\inffast.c"
+"G:\VNC\vnc_winsrc\winvnc\zlib\inflate.c"
+"G:\VNC\vnc_winsrc\winvnc\zlib\inftrees.c"
+"G:\VNC\vnc_winsrc\winvnc\zlib\infutil.c"
+"G:\VNC\vnc_winsrc\winvnc\zlib\maketree.c"
+"G:\VNC\vnc_winsrc\winvnc\zlib\trees.c"
+"G:\VNC\vnc_winsrc\winvnc\zlib\uncompr.c"
+"G:\VNC\vnc_winsrc\winvnc\zlib\zutil.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ali\LOCALS~1\Temp\RSP31.tmp" 
+Creating temporary file "C:\DOCUME~1\ali\LOCALS~1\Temp\RSP32.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:no /pdb:"Release/zlib.pdb" /machine:I386 /def:".\zlib.def" /out:"Release/zlib.dll" /implib:"Release/zlib.lib" 
+.\Release\adler32.obj
+.\Release\compress.obj
+.\Release\crc32.obj
+.\Release\deflate.obj
+.\Release\infblock.obj
+.\Release\infcodes.obj
+.\Release\inffast.obj
+.\Release\inflate.obj
+.\Release\inftrees.obj
+.\Release\infutil.obj
+.\Release\maketree.obj
+.\Release\trees.obj
+.\Release\uncompr.obj
+.\Release\zutil.obj
+.\Release\zlib.res
+]
+Creating command line "link.exe @C:\DOCUME~1\ali\LOCALS~1\Temp\RSP32.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+adler32.c
+compress.c
+crc32.c
+deflate.c
+infblock.c
+infcodes.c
+inffast.c
+inflate.c
+inftrees.c
+infutil.c
+maketree.c
+trees.c
+uncompr.c
+zutil.c
+Linking...
+   Creating library Release/zlib.lib and object Release/zlib.exp
+<h3>
+--------------------Configuration: libjpeg - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ali\LOCALS~1\Temp\RSP36.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /Fp"Release/libjpeg.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jcapimin.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jcapistd.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jccoefct.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jccolor.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jcdctmgr.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jchuff.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jcinit.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jcmainct.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jcmarker.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jcmaster.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jcomapi.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jcparam.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jcphuff.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jcprepct.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jcsample.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jctrans.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jdapimin.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jdapistd.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jdatadst.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jdatasrc.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jdcoefct.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jdcolor.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jddctmgr.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jdhuff.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jdinput.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jdmainct.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jdmarker.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jdmaster.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jdmerge.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jdphuff.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jdpostct.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jdsample.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jdtrans.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jerror.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jfdctflt.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jfdctfst.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jfdctint.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jidctflt.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jidctfst.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jidctint.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jidctred.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jmemmgr.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jmemnobs.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jquant1.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jquant2.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jutils.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ali\LOCALS~1\Temp\RSP36.tmp" 
+Creating temporary file "C:\DOCUME~1\ali\LOCALS~1\Temp\RSP37.tmp" with contents
+[
+/nologo /out:"Release\libjpeg.lib" 
+.\Release\jcapimin.obj
+.\Release\jcapistd.obj
+.\Release\jccoefct.obj
+.\Release\jccolor.obj
+.\Release\jcdctmgr.obj
+.\Release\jchuff.obj
+.\Release\jcinit.obj
+.\Release\jcmainct.obj
+.\Release\jcmarker.obj
+.\Release\jcmaster.obj
+.\Release\jcomapi.obj
+.\Release\jcparam.obj
+.\Release\jcphuff.obj
+.\Release\jcprepct.obj
+.\Release\jcsample.obj
+.\Release\jctrans.obj
+.\Release\jdapimin.obj
+.\Release\jdapistd.obj
+.\Release\jdatadst.obj
+.\Release\jdatasrc.obj
+.\Release\jdcoefct.obj
+.\Release\jdcolor.obj
+.\Release\jddctmgr.obj
+.\Release\jdhuff.obj
+.\Release\jdinput.obj
+.\Release\jdmainct.obj
+.\Release\jdmarker.obj
+.\Release\jdmaster.obj
+.\Release\jdmerge.obj
+.\Release\jdphuff.obj
+.\Release\jdpostct.obj
+.\Release\jdsample.obj
+.\Release\jdtrans.obj
+.\Release\jerror.obj
+.\Release\jfdctflt.obj
+.\Release\jfdctfst.obj
+.\Release\jfdctint.obj
+.\Release\jidctflt.obj
+.\Release\jidctfst.obj
+.\Release\jidctint.obj
+.\Release\jidctred.obj
+.\Release\jmemmgr.obj
+.\Release\jmemnobs.obj
+.\Release\jquant1.obj
+.\Release\jquant2.obj
+.\Release\jutils.obj
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\ali\LOCALS~1\Temp\RSP37.tmp"
+<h3>Output Window</h3>
+Compiling...
+jcapimin.c
+jcapistd.c
+jccoefct.c
+jccolor.c
+jcdctmgr.c
+jchuff.c
+jcinit.c
+jcmainct.c
+jcmarker.c
+jcmaster.c
+jcomapi.c
+jcparam.c
+jcphuff.c
+jcprepct.c
+jcsample.c
+jctrans.c
+jdapimin.c
+jdapistd.c
+jdatadst.c
+jdatasrc.c
+jdcoefct.c
+jdcolor.c
+jddctmgr.c
+jdhuff.c
+jdinput.c
+jdmainct.c
+jdmarker.c
+jdmaster.c
+jdmerge.c
+jdphuff.c
+jdpostct.c
+jdsample.c
+jdtrans.c
+jerror.c
+jfdctflt.c
+jfdctfst.c
+jfdctint.c
+jidctflt.c
+jidctfst.c
+jidctint.c
+jidctred.c
+jmemmgr.c
+jmemnobs.c
+jquant1.c
+jquant2.c
+jutils.c
+Creating library...
+<h3>
+--------------------Configuration: WinVNC - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x809 /fo"Release/WinVNC.res" /d "NDEBUG" "G:\VNC\vnc_winsrc\winvnc\WinVNC.rc"" 
+Creating temporary file "C:\DOCUME~1\ali\LOCALS~1\Temp\RSP38.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "./omnithread" /I "\\shallot\omni\release\include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "__WIN32__" /D "__NT__" /D "__x86__" /D "_CORBA" /Fp"Release/WinVNC.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"G:\VNC\vnc_winsrc\winvnc\d3des.c"
+"G:\VNC\vnc_winsrc\winvnc\Log.cpp"
+"G:\VNC\vnc_winsrc\winvnc\MinMax.cpp"
+"G:\VNC\vnc_winsrc\winvnc\RectList.cpp"
+"G:\VNC\vnc_winsrc\winvnc\stdhdrs.cpp"
+"G:\VNC\vnc_winsrc\winvnc\translate.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncAbout.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncAcceptDialog.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncAdvancedProperties.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncauth.c"
+"G:\VNC\vnc_winsrc\winvnc\vncBuffer.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncClient.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncConnDialog.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncDesktop.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncEncodeCoRRE.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncEncodeHexT.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncEncoder.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncEncodeRRE.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncEncodeTight.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncEncodeZlib.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncEncodeZlibHex.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncHTTPConnect.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncInstHandler.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncKeymap.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncMenu.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncProperties.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncRegion.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncServer.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncService.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncSockConnect.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncTimedMsgBox.cpp"
+"G:\VNC\vnc_winsrc\winvnc\VSocket.cpp"
+"G:\VNC\vnc_winsrc\winvnc\WinVNC.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ali\LOCALS~1\Temp\RSP38.tmp" 
+Creating temporary file "C:\DOCUME~1\ali\LOCALS~1\Temp\RSP39.tmp" with contents
+[
+wsock32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib omniORB270_rt.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/WinVNC.pdb" /machine:I386 /out:"Release/WinVNC.exe" /libpath:"\\shallot\omni\release\lib\x86_nt_3.5" /libpath:"\\shallot\omni\release\lib\x86_nt_4.0" 
+.\Release\d3des.obj
+.\Release\Log.obj
+.\Release\MinMax.obj
+.\Release\RectList.obj
+.\Release\stdhdrs.obj
+.\Release\translate.obj
+.\Release\vncAbout.obj
+.\Release\vncAcceptDialog.obj
+.\Release\vncAdvancedProperties.obj
+.\Release\vncauth.obj
+.\Release\vncBuffer.obj
+.\Release\vncClient.obj
+.\Release\vncConnDialog.obj
+.\Release\vncDesktop.obj
+.\Release\vncEncodeCoRRE.obj
+.\Release\vncEncodeHexT.obj
+.\Release\vncEncoder.obj
+.\Release\vncEncodeRRE.obj
+.\Release\vncEncodeTight.obj
+.\Release\vncEncodeZlib.obj
+.\Release\vncEncodeZlibHex.obj
+.\Release\vncHTTPConnect.obj
+.\Release\vncInstHandler.obj
+.\Release\vncKeymap.obj
+.\Release\vncMenu.obj
+.\Release\vncProperties.obj
+.\Release\vncRegion.obj
+.\Release\vncServer.obj
+.\Release\vncService.obj
+.\Release\vncSockConnect.obj
+.\Release\vncTimedMsgBox.obj
+.\Release\VSocket.obj
+.\Release\WinVNC.obj
+.\Release\WinVNC.res
+.\Release\VNCHooks.lib
+.\Release\omnithread_rt.lib
+.\zlib\Release\zlib.lib
+.\libjpeg\Release\libjpeg.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\ali\LOCALS~1\Temp\RSP39.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+d3des.c
+Log.cpp
+MinMax.cpp
+RectList.cpp
+stdhdrs.cpp
+translate.cpp
+vncAbout.cpp
+vncAcceptDialog.cpp
+vncAdvancedProperties.cpp
+G:\VNC\vnc_winsrc\winvnc\vncCORBAConnect.h(44) : fatal error C1083: Cannot open include file: 'omniorb2/CORBA.h': No such file or directory
+vncauth.c
+vncBuffer.cpp
+G:\VNC\vnc_winsrc\winvnc\vncCORBAConnect.h(44) : fatal error C1083: Cannot open include file: 'omniorb2/CORBA.h': No such file or directory
+vncClient.cpp
+G:\VNC\vnc_winsrc\winvnc\vncCORBAConnect.h(44) : fatal error C1083: Cannot open include file: 'omniorb2/CORBA.h': No such file or directory
+vncConnDialog.cpp
+G:\VNC\vnc_winsrc\winvnc\vncCORBAConnect.h(44) : fatal error C1083: Cannot open include file: 'omniorb2/CORBA.h': No such file or directory
+vncDesktop.cpp
+G:\VNC\vnc_winsrc\winvnc\vncCORBAConnect.h(44) : fatal error C1083: Cannot open include file: 'omniorb2/CORBA.h': No such file or directory
+vncEncodeCoRRE.cpp
+G:\VNC\vnc_winsrc\winvnc\vncCORBAConnect.h(44) : fatal error C1083: Cannot open include file: 'omniorb2/CORBA.h': No such file or directory
+vncEncodeHexT.cpp
+G:\VNC\vnc_winsrc\winvnc\vncCORBAConnect.h(44) : fatal error C1083: Cannot open include file: 'omniorb2/CORBA.h': No such file or directory
+vncEncoder.cpp
+G:\VNC\vnc_winsrc\winvnc\vncCORBAConnect.h(44) : fatal error C1083: Cannot open include file: 'omniorb2/CORBA.h': No such file or directory
+vncEncodeRRE.cpp
+G:\VNC\vnc_winsrc\winvnc\vncCORBAConnect.h(44) : fatal error C1083: Cannot open include file: 'omniorb2/CORBA.h': No such file or directory
+vncEncodeTight.cpp
+G:\VNC\vnc_winsrc\winvnc\vncCORBAConnect.h(44) : fatal error C1083: Cannot open include file: 'omniorb2/CORBA.h': No such file or directory
+vncEncodeZlib.cpp
+G:\VNC\vnc_winsrc\winvnc\vncCORBAConnect.h(44) : fatal error C1083: Cannot open include file: 'omniorb2/CORBA.h': No such file or directory
+vncEncodeZlibHex.cpp
+G:\VNC\vnc_winsrc\winvnc\vncCORBAConnect.h(44) : fatal error C1083: Cannot open include file: 'omniorb2/CORBA.h': No such file or directory
+vncHTTPConnect.cpp
+G:\VNC\vnc_winsrc\winvnc\vncCORBAConnect.h(44) : fatal error C1083: Cannot open include file: 'omniorb2/CORBA.h': No such file or directory
+vncInstHandler.cpp
+vncKeymap.cpp
+vncMenu.cpp
+G:\VNC\vnc_winsrc\winvnc\vncCORBAConnect.h(44) : fatal error C1083: Cannot open include file: 'omniorb2/CORBA.h': No such file or directory
+vncProperties.cpp
+G:\VNC\vnc_winsrc\winvnc\vncCORBAConnect.h(44) : fatal error C1083: Cannot open include file: 'omniorb2/CORBA.h': No such file or directory
+vncRegion.cpp
+vncServer.cpp
+G:\VNC\vnc_winsrc\winvnc\vncCORBAConnect.h(44) : fatal error C1083: Cannot open include file: 'omniorb2/CORBA.h': No such file or directory
+vncService.cpp
+G:\VNC\vnc_winsrc\winvnc\vncCORBAConnect.h(44) : fatal error C1083: Cannot open include file: 'omniorb2/CORBA.h': No such file or directory
+vncSockConnect.cpp
+G:\VNC\vnc_winsrc\winvnc\vncCORBAConnect.h(44) : fatal error C1083: Cannot open include file: 'omniorb2/CORBA.h': No such file or directory
+vncTimedMsgBox.cpp
+VSocket.cpp
+WinVNC.cpp
+G:\VNC\vnc_winsrc\winvnc\vncCORBAConnect.h(44) : fatal error C1083: Cannot open include file: 'omniorb2/CORBA.h': No such file or directory
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+WinVNC.exe - 19 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: VNCHooks - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x809 /fo"../Debug/VNCHooks.res" /d "_DEBUG" "G:\VNC\vnc_winsrc\winvnc\VNCHooks\VNCHooks.rc"" 
+Creating temporary file "C:\DOCUME~1\ali\LOCALS~1\Temp\RSP3A.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "\\shallot\omni\release\include" /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D _WIN32_WINNT=0x0400 /Fp"../Debug/VNCHooks.pch" /YX /Fo"../Debug/" /Fd"../Debug/" /FD /c 
+"G:\VNC\vnc_winsrc\winvnc\VNCHooks\VNCHooks.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ali\LOCALS~1\Temp\RSP3A.tmp" 
+Creating temporary file "C:\DOCUME~1\ali\LOCALS~1\Temp\RSP3B.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:"../Debug/VNCHooks.pdb" /debug /machine:I386 /def:".\VNCHooks.def" /out:"../Debug/VNCHooks.dll" /implib:"../Debug/VNCHooks.lib" /pdbtype:sept 
+\VNC\vnc_winsrc\winvnc\Debug\VNCHooks.obj
+\VNC\vnc_winsrc\winvnc\Debug\VNCHooks.res
+]
+Creating command line "link.exe @C:\DOCUME~1\ali\LOCALS~1\Temp\RSP3B.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+Skipping... (no relevant changes detected)
+VNCHooks.cpp
+Linking...
+<h3>
+--------------------Configuration: omnithread - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ali\LOCALS~1\Temp\RSP3C.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /I "." /I "\\shallot\omni\release\include" /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D "__WIN32__" /D "__NT__" /D "__x86__" /D "_OMNITHREAD_DLL" /Fp"../Debug/omnithread.pch" /YX /Fo"../Debug/" /Fd"../Debug/" /FD /c 
+"G:\VNC\vnc_winsrc\winvnc\omnithread\omnithread\nt.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ali\LOCALS~1\Temp\RSP3C.tmp" 
+Creating temporary file "C:\DOCUME~1\ali\LOCALS~1\Temp\RSP3D.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:"../Debug/omnithread_rtd.pdb" /debug /machine:I386 /out:"../Debug/omnithread_rtd.dll" /implib:"../Debug/omnithread_rtd.lib" /pdbtype:sept 
+\VNC\vnc_winsrc\winvnc\Debug\nt.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\ali\LOCALS~1\Temp\RSP3D.tmp"
+<h3>Output Window</h3>
+Compiling...
+nt.cpp
+Linking...
+   Creating library ../Debug/omnithread_rtd.lib and object ../Debug/omnithread_rtd.exp
+<h3>
+--------------------Configuration: zlib - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"../Debug/zlib.res" /d "_DEBUG" "G:\VNC\vnc_winsrc\winvnc\zlib\zlib.rc"" 
+Creating temporary file "C:\DOCUME~1\ali\LOCALS~1\Temp\RSP41.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "ZLIB_EXPORTS" /D "ZLIB_DLL" /Fp"../Debug/zlib.pch" /YX /Fo"../Debug/" /Fd"../Debug/" /FD /GZ /c 
+"G:\VNC\vnc_winsrc\winvnc\zlib\adler32.c"
+"G:\VNC\vnc_winsrc\winvnc\zlib\compress.c"
+"G:\VNC\vnc_winsrc\winvnc\zlib\crc32.c"
+"G:\VNC\vnc_winsrc\winvnc\zlib\deflate.c"
+"G:\VNC\vnc_winsrc\winvnc\zlib\infblock.c"
+"G:\VNC\vnc_winsrc\winvnc\zlib\infcodes.c"
+"G:\VNC\vnc_winsrc\winvnc\zlib\inffast.c"
+"G:\VNC\vnc_winsrc\winvnc\zlib\inflate.c"
+"G:\VNC\vnc_winsrc\winvnc\zlib\inftrees.c"
+"G:\VNC\vnc_winsrc\winvnc\zlib\infutil.c"
+"G:\VNC\vnc_winsrc\winvnc\zlib\maketree.c"
+"G:\VNC\vnc_winsrc\winvnc\zlib\trees.c"
+"G:\VNC\vnc_winsrc\winvnc\zlib\uncompr.c"
+"G:\VNC\vnc_winsrc\winvnc\zlib\zutil.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ali\LOCALS~1\Temp\RSP41.tmp" 
+Creating temporary file "C:\DOCUME~1\ali\LOCALS~1\Temp\RSP42.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:yes /pdb:"../Debug/zlib.pdb" /debug /machine:I386 /def:".\zlib.def" /out:"../Debug/zlib.dll" /implib:"../Debug/zlib.lib" /pdbtype:sept 
+\VNC\vnc_winsrc\winvnc\Debug\adler32.obj
+\VNC\vnc_winsrc\winvnc\Debug\compress.obj
+\VNC\vnc_winsrc\winvnc\Debug\crc32.obj
+\VNC\vnc_winsrc\winvnc\Debug\deflate.obj
+\VNC\vnc_winsrc\winvnc\Debug\infblock.obj
+\VNC\vnc_winsrc\winvnc\Debug\infcodes.obj
+\VNC\vnc_winsrc\winvnc\Debug\inffast.obj
+\VNC\vnc_winsrc\winvnc\Debug\inflate.obj
+\VNC\vnc_winsrc\winvnc\Debug\inftrees.obj
+\VNC\vnc_winsrc\winvnc\Debug\infutil.obj
+\VNC\vnc_winsrc\winvnc\Debug\maketree.obj
+\VNC\vnc_winsrc\winvnc\Debug\trees.obj
+\VNC\vnc_winsrc\winvnc\Debug\uncompr.obj
+\VNC\vnc_winsrc\winvnc\Debug\zutil.obj
+\VNC\vnc_winsrc\winvnc\Debug\zlib.res
+]
+Creating command line "link.exe @C:\DOCUME~1\ali\LOCALS~1\Temp\RSP42.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+adler32.c
+compress.c
+crc32.c
+deflate.c
+infblock.c
+infcodes.c
+inffast.c
+inflate.c
+inftrees.c
+infutil.c
+maketree.c
+trees.c
+uncompr.c
+zutil.c
+Linking...
+   Creating library ../Debug/zlib.lib and object ../Debug/zlib.exp
+<h3>
+--------------------Configuration: libjpeg - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ali\LOCALS~1\Temp\RSP46.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /Fp"Debug/libjpeg.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jcapimin.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jcapistd.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jccoefct.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jccolor.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jcdctmgr.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jchuff.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jcinit.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jcmainct.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jcmarker.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jcmaster.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jcomapi.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jcparam.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jcphuff.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jcprepct.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jcsample.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jctrans.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jdapimin.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jdapistd.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jdatadst.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jdatasrc.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jdcoefct.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jdcolor.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jddctmgr.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jdhuff.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jdinput.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jdmainct.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jdmarker.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jdmaster.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jdmerge.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jdphuff.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jdpostct.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jdsample.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jdtrans.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jerror.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jfdctflt.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jfdctfst.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jfdctint.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jidctflt.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jidctfst.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jidctint.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jidctred.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jmemmgr.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jmemnobs.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jquant1.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jquant2.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jutils.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ali\LOCALS~1\Temp\RSP46.tmp" 
+Creating temporary file "C:\DOCUME~1\ali\LOCALS~1\Temp\RSP47.tmp" with contents
+[
+/nologo /out:"Debug\libjpeg.lib" 
+.\Debug\jcapimin.obj
+.\Debug\jcapistd.obj
+.\Debug\jccoefct.obj
+.\Debug\jccolor.obj
+.\Debug\jcdctmgr.obj
+.\Debug\jchuff.obj
+.\Debug\jcinit.obj
+.\Debug\jcmainct.obj
+.\Debug\jcmarker.obj
+.\Debug\jcmaster.obj
+.\Debug\jcomapi.obj
+.\Debug\jcparam.obj
+.\Debug\jcphuff.obj
+.\Debug\jcprepct.obj
+.\Debug\jcsample.obj
+.\Debug\jctrans.obj
+.\Debug\jdapimin.obj
+.\Debug\jdapistd.obj
+.\Debug\jdatadst.obj
+.\Debug\jdatasrc.obj
+.\Debug\jdcoefct.obj
+.\Debug\jdcolor.obj
+.\Debug\jddctmgr.obj
+.\Debug\jdhuff.obj
+.\Debug\jdinput.obj
+.\Debug\jdmainct.obj
+.\Debug\jdmarker.obj
+.\Debug\jdmaster.obj
+.\Debug\jdmerge.obj
+.\Debug\jdphuff.obj
+.\Debug\jdpostct.obj
+.\Debug\jdsample.obj
+.\Debug\jdtrans.obj
+.\Debug\jerror.obj
+.\Debug\jfdctflt.obj
+.\Debug\jfdctfst.obj
+.\Debug\jfdctint.obj
+.\Debug\jidctflt.obj
+.\Debug\jidctfst.obj
+.\Debug\jidctint.obj
+.\Debug\jidctred.obj
+.\Debug\jmemmgr.obj
+.\Debug\jmemnobs.obj
+.\Debug\jquant1.obj
+.\Debug\jquant2.obj
+.\Debug\jutils.obj
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\ali\LOCALS~1\Temp\RSP47.tmp"
+<h3>Output Window</h3>
+Compiling...
+jcapimin.c
+jcapistd.c
+jccoefct.c
+jccolor.c
+jcdctmgr.c
+jchuff.c
+jcinit.c
+jcmainct.c
+jcmarker.c
+jcmaster.c
+jcomapi.c
+jcparam.c
+jcphuff.c
+jcprepct.c
+jcsample.c
+jctrans.c
+jdapimin.c
+jdapistd.c
+jdatadst.c
+jdatasrc.c
+jdcoefct.c
+jdcolor.c
+jddctmgr.c
+jdhuff.c
+jdinput.c
+jdmainct.c
+jdmarker.c
+jdmaster.c
+jdmerge.c
+jdphuff.c
+jdpostct.c
+jdsample.c
+jdtrans.c
+jerror.c
+jfdctflt.c
+jfdctfst.c
+jfdctint.c
+jidctflt.c
+jidctfst.c
+jidctint.c
+jidctred.c
+jmemmgr.c
+jmemnobs.c
+jquant1.c
+jquant2.c
+jutils.c
+Creating library...
+<h3>
+--------------------Configuration: WinVNC - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x809 /fo"Debug/WinVNC.res" /d "_DEBUG" "G:\VNC\vnc_winsrc\winvnc\WinVNC.rc"" 
+Creating temporary file "C:\DOCUME~1\ali\LOCALS~1\Temp\RSP48.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "./omnithread" /I "\\shallot\omni\release\include" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "__WIN32__" /D "__NT__" /D "__x86__" /D "NCORBA" /D "ZLIB_DLL" /Fp"Debug/WinVNC.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /c 
+"G:\VNC\vnc_winsrc\winvnc\d3des.c"
+"G:\VNC\vnc_winsrc\winvnc\Log.cpp"
+"G:\VNC\vnc_winsrc\winvnc\MinMax.cpp"
+"G:\VNC\vnc_winsrc\winvnc\RectList.cpp"
+"G:\VNC\vnc_winsrc\winvnc\stdhdrs.cpp"
+"G:\VNC\vnc_winsrc\winvnc\translate.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncAbout.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncAcceptDialog.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncAdvancedProperties.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncauth.c"
+"G:\VNC\vnc_winsrc\winvnc\vncBuffer.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncClient.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncConnDialog.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncDesktop.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncEncodeCoRRE.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncEncodeHexT.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncEncoder.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncEncodeRRE.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncEncodeTight.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncEncodeZlib.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncEncodeZlibHex.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncHTTPConnect.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncInstHandler.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncKeymap.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncMenu.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncProperties.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncRegion.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncServer.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncService.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncSockConnect.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncTimedMsgBox.cpp"
+"G:\VNC\vnc_winsrc\winvnc\VSocket.cpp"
+"G:\VNC\vnc_winsrc\winvnc\WinVNC.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ali\LOCALS~1\Temp\RSP48.tmp" 
+Creating temporary file "C:\DOCUME~1\ali\LOCALS~1\Temp\RSP49.tmp" with contents
+[
+wsock32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib /nologo /subsystem:windows /incremental:no /pdb:"Debug/WinVNC.pdb" /map:"Debug/WinVNC.map" /debug /machine:I386 /out:"Debug/WinVNC.exe" /pdbtype:sept /libpath:"\\shallot\omni\release\lib\x86_nt_3.5" 
+.\Debug\d3des.obj
+.\Debug\Log.obj
+.\Debug\MinMax.obj
+.\Debug\RectList.obj
+.\Debug\stdhdrs.obj
+.\Debug\translate.obj
+.\Debug\vncAbout.obj
+.\Debug\vncAcceptDialog.obj
+.\Debug\vncAdvancedProperties.obj
+.\Debug\vncauth.obj
+.\Debug\vncBuffer.obj
+.\Debug\vncClient.obj
+.\Debug\vncConnDialog.obj
+.\Debug\vncDesktop.obj
+.\Debug\vncEncodeCoRRE.obj
+.\Debug\vncEncodeHexT.obj
+.\Debug\vncEncoder.obj
+.\Debug\vncEncodeRRE.obj
+.\Debug\vncEncodeTight.obj
+.\Debug\vncEncodeZlib.obj
+.\Debug\vncEncodeZlibHex.obj
+.\Debug\vncHTTPConnect.obj
+.\Debug\vncInstHandler.obj
+.\Debug\vncKeymap.obj
+.\Debug\vncMenu.obj
+.\Debug\vncProperties.obj
+.\Debug\vncRegion.obj
+.\Debug\vncServer.obj
+.\Debug\vncService.obj
+.\Debug\vncSockConnect.obj
+.\Debug\vncTimedMsgBox.obj
+.\Debug\VSocket.obj
+.\Debug\WinVNC.obj
+.\Debug\WinVNC.res
+.\Debug\VNCHooks.lib
+.\Debug\omnithread_rtd.lib
+.\Debug\zlib.lib
+.\libjpeg\Debug\libjpeg.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\ali\LOCALS~1\Temp\RSP49.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+d3des.c
+Log.cpp
+MinMax.cpp
+RectList.cpp
+stdhdrs.cpp
+translate.cpp
+vncAbout.cpp
+vncAcceptDialog.cpp
+vncAdvancedProperties.cpp
+vncauth.c
+vncBuffer.cpp
+vncClient.cpp
+vncConnDialog.cpp
+vncDesktop.cpp
+vncEncodeCoRRE.cpp
+vncEncodeHexT.cpp
+vncEncoder.cpp
+vncEncodeRRE.cpp
+vncEncodeTight.cpp
+vncEncodeZlib.cpp
+vncEncodeZlibHex.cpp
+vncHTTPConnect.cpp
+vncInstHandler.cpp
+vncKeymap.cpp
+g:\vnc\vnc_winsrc\winvnc\vnckeymap.cpp(313) : warning C4786: 'std::reverse_bidirectional_iterator<std::_Tree<unsigned long,std::pair<unsigned long const ,unsigned char>,std::map<unsigned long,unsigned char,std::less<unsigned long>,std::allocator<unsigned char> >::_Kfn,std::less<unsigned long>,std::allocator<unsigned char> >::iterator,std::pair<unsigned long const ,unsigned char>,std::pair<unsigned long const ,unsigned char> &,std::pair<unsigned long const ,unsigned char> *,int>' : identifier was truncated to '255' characters in the debug information
+g:\vnc\vnc_winsrc\winvnc\vnckeymap.cpp(313) : warning C4786: 'std::reverse_bidirectional_iterator<std::_Tree<unsigned long,std::pair<unsigned long const ,unsigned char>,std::map<unsigned long,unsigned char,std::less<unsigned long>,std::allocator<unsigned char> >::_Kfn,std::less<unsigned long>,std::allocator<unsigned char> >::const_iterator,std::pair<unsigned long const ,unsigned char>,std::pair<unsigned long const ,unsigned char> const &,std::pair<unsigned long const ,unsigned char> const *,int>' : identifier was truncated to '255' characters in the debug information
+g:\vnc\vnc_winsrc\winvnc\vnckeymap.cpp(313) : warning C4786: 'std::pair<std::_Tree<unsigned long,std::pair<unsigned long const ,unsigned char>,std::map<unsigned long,unsigned char,std::less<unsigned long>,std::allocator<unsigned char> >::_Kfn,std::less<unsigned long>,std::allocator<unsigned char> >::iterator,std::_Tree<unsigned long,std::pair<unsigned long const ,unsigned char>,std::map<unsigned long,unsigned char,std::less<unsigned long>,std::allocator<unsigned char> >::_Kfn,std::less<unsigned long>,std::allocator<unsigned char> >::iterator>' : identifier was truncated to '255' characters in the debug information
+g:\vnc\vnc_winsrc\winvnc\vnckeymap.cpp(313) : warning C4786: 'std::pair<std::_Tree<unsigned long,std::pair<unsigned long const ,unsigned char>,std::map<unsigned long,unsigned char,std::less<unsigned long>,std::allocator<unsigned char> >::_Kfn,std::less<unsigned long>,std::allocator<unsigned char> >::const_iterator,std::_Tree<unsigned long,std::pair<unsigned long const ,unsigned char>,std::map<unsigned long,unsigned char,std::less<unsigned long>,std::allocator<unsigned char> >::_Kfn,std::less<unsigned long>,std::allocator<unsigned char> >::const_iterator>' : identifier was truncated to '255' characters in the debug information
+g:\vnc\vnc_winsrc\winvnc\vnckeymap.cpp(313) : warning C4786: 'std::reverse_bidirectional_iterator<std::_Tree<unsigned long,std::pair<unsigned long const ,bool>,std::map<unsigned long,bool,std::less<unsigned long>,std::allocator<bool> >::_Kfn,std::less<unsigned long>,std::allocator<bool> >::iterator,std::pair<unsigned long const ,bool>,std::pair<unsigned long const ,bool> &,std::pair<unsigned long const ,bool> *,int>' : identifier was truncated to '255' characters in the debug information
+g:\vnc\vnc_winsrc\winvnc\vnckeymap.cpp(313) : warning C4786: 'std::reverse_bidirectional_iterator<std::_Tree<unsigned long,std::pair<unsigned long const ,bool>,std::map<unsigned long,bool,std::less<unsigned long>,std::allocator<bool> >::_Kfn,std::less<unsigned long>,std::allocator<bool> >::const_iterator,std::pair<unsigned long const ,bool>,std::pair<unsigned long const ,bool> const &,std::pair<unsigned long const ,bool> const *,int>' : identifier was truncated to '255' characters in the debug information
+g:\vnc\vnc_winsrc\winvnc\vnckeymap.cpp(313) : warning C4786: 'std::pair<std::_Tree<unsigned long,std::pair<unsigned long const ,bool>,std::map<unsigned long,bool,std::less<unsigned long>,std::allocator<bool> >::_Kfn,std::less<unsigned long>,std::allocator<bool> >::iterator,std::_Tree<unsigned long,std::pair<unsigned long const ,bool>,std::map<unsigned long,bool,std::less<unsigned long>,std::allocator<bool> >::_Kfn,std::less<unsigned long>,std::allocator<bool> >::iterator>' : identifier was truncated to '255' characters in the debug information
+g:\vnc\vnc_winsrc\winvnc\vnckeymap.cpp(313) : warning C4786: 'std::pair<std::_Tree<unsigned long,std::pair<unsigned long const ,bool>,std::map<unsigned long,bool,std::less<unsigned long>,std::allocator<bool> >::_Kfn,std::less<unsigned long>,std::allocator<bool> >::const_iterator,std::_Tree<unsigned long,std::pair<unsigned long const ,bool>,std::map<unsigned long,bool,std::less<unsigned long>,std::allocator<bool> >::_Kfn,std::less<unsigned long>,std::allocator<bool> >::const_iterator>' : identifier was truncated to '255' characters in the debug information
+vncMenu.cpp
+vncProperties.cpp
+vncRegion.cpp
+vncServer.cpp
+vncService.cpp
+vncSockConnect.cpp
+vncTimedMsgBox.cpp
+VSocket.cpp
+WinVNC.cpp
+Linking...
+LINK : warning LNK4075: ignoring /EDITANDCONTINUE due to /INCREMENTAL:NO specification
+LINK : warning LNK4098: defaultlib "LIBCD" conflicts with use of other libs; use /NODEFAULTLIB:library
+
+
+
+<h3>Results</h3>
+WinVNC.exe - 0 error(s), 10 warning(s)
+<h3>
+--------------------Configuration: VNCHooks - Win32 Purify--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x809 /fo"../Purify/VNCHooks.res" /d "_DEBUG" "G:\VNC\vnc_winsrc\winvnc\VNCHooks\VNCHooks.rc"" 
+Creating temporary file "C:\DOCUME~1\ali\LOCALS~1\Temp\RSP4B.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D _WIN32_WINNT=0x0400 /Fp"../Purify/VNCHooks.pch" /YX /Fo"../Purify/" /Fd"../Purify/" /FD /c 
+"G:\VNC\vnc_winsrc\winvnc\VNCHooks\VNCHooks.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ali\LOCALS~1\Temp\RSP4B.tmp" 
+Creating temporary file "C:\DOCUME~1\ali\LOCALS~1\Temp\RSP4C.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:"../Purify/VNCHooks.pdb" /debug /machine:I386 /def:".\VNCHooks.def" /out:"../Purify/VNCHooks.dll" /implib:"../Purify/VNCHooks.lib" /pdbtype:sept 
+\VNC\vnc_winsrc\winvnc\Purify\VNCHooks.obj
+\VNC\vnc_winsrc\winvnc\Purify\VNCHooks.res
+]
+Creating command line "link.exe @C:\DOCUME~1\ali\LOCALS~1\Temp\RSP4C.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+Skipping... (no relevant changes detected)
+VNCHooks.cpp
+Linking...
+<h3>
+--------------------Configuration: omnithread - Win32 Purify--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ali\LOCALS~1\Temp\RSP4D.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "." /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D "__WIN32__" /D "__NT__" /D "__x86__" /D "_OMNITHREAD_DLL" /Fp"../Purify/omnithread.pch" /YX /Fo"../Purify/" /Fd"../Purify/" /FD /c 
+"G:\VNC\vnc_winsrc\winvnc\omnithread\omnithread\nt.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ali\LOCALS~1\Temp\RSP4D.tmp" 
+Creating temporary file "C:\DOCUME~1\ali\LOCALS~1\Temp\RSP4E.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:"../Purify/omnithread_rtd.pdb" /debug /machine:I386 /out:"../Purify/omnithread_rtd.dll" /implib:"../Purify/omnithread_rtd.lib" /pdbtype:sept 
+\VNC\vnc_winsrc\winvnc\Purify\nt.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\ali\LOCALS~1\Temp\RSP4E.tmp"
+<h3>Output Window</h3>
+Compiling...
+nt.cpp
+Linking...
+   Creating library ../Purify/omnithread_rtd.lib and object ../Purify/omnithread_rtd.exp
+<h3>
+--------------------Configuration: WinVNC - Win32 Purify--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x809 /fo"Purify/WinVNC.res" /d "_DEBUG" "G:\VNC\vnc_winsrc\winvnc\WinVNC.rc"" 
+Creating temporary file "C:\DOCUME~1\ali\LOCALS~1\Temp\RSP52.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "./omnithread" /I "\\shallot\omni\release\include" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "__WIN32__" /D "__NT__" /D "__x86__" /D "_CORBA" /Fp"Purify/WinVNC.pch" /YX /Fo"Purify/" /Fd"Purify/" /FD /c 
+"G:\VNC\vnc_winsrc\winvnc\d3des.c"
+"G:\VNC\vnc_winsrc\winvnc\Log.cpp"
+"G:\VNC\vnc_winsrc\winvnc\MinMax.cpp"
+"G:\VNC\vnc_winsrc\winvnc\RectList.cpp"
+"G:\VNC\vnc_winsrc\winvnc\stdhdrs.cpp"
+"G:\VNC\vnc_winsrc\winvnc\translate.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncAbout.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncAcceptDialog.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncAdvancedProperties.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncauth.c"
+"G:\VNC\vnc_winsrc\winvnc\vncBuffer.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncClient.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncConnDialog.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncDesktop.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncEncodeCoRRE.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncEncodeHexT.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncEncoder.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncEncodeRRE.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncEncodeTight.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncEncodeZlib.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncEncodeZlibHex.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncHTTPConnect.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncInstHandler.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncKeymap.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncMenu.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncProperties.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncRegion.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncServer.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncService.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncSockConnect.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncTimedMsgBox.cpp"
+"G:\VNC\vnc_winsrc\winvnc\VSocket.cpp"
+"G:\VNC\vnc_winsrc\winvnc\WinVNC.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ali\LOCALS~1\Temp\RSP52.tmp" 
+Creating temporary file "C:\DOCUME~1\ali\LOCALS~1\Temp\RSP53.tmp" with contents
+[
+omniORB260_rtd.lib wsock32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib /nologo /subsystem:windows /incremental:yes /pdb:"Purify/WinVNC.pdb" /debug /machine:I386 /out:"Purify/WinVNC.exe" /pdbtype:sept /libpath:"\\shallot\omni\release\lib\x86_nt_3.5" 
+.\Purify\d3des.obj
+.\Purify\Log.obj
+.\Purify\MinMax.obj
+.\Purify\RectList.obj
+.\Purify\stdhdrs.obj
+.\Purify\translate.obj
+.\Purify\vncAbout.obj
+.\Purify\vncAcceptDialog.obj
+.\Purify\vncAdvancedProperties.obj
+.\Purify\vncauth.obj
+.\Purify\vncBuffer.obj
+.\Purify\vncClient.obj
+.\Purify\vncConnDialog.obj
+.\Purify\vncDesktop.obj
+.\Purify\vncEncodeCoRRE.obj
+.\Purify\vncEncodeHexT.obj
+.\Purify\vncEncoder.obj
+.\Purify\vncEncodeRRE.obj
+.\Purify\vncEncodeTight.obj
+.\Purify\vncEncodeZlib.obj
+.\Purify\vncEncodeZlibHex.obj
+.\Purify\vncHTTPConnect.obj
+.\Purify\vncInstHandler.obj
+.\Purify\vncKeymap.obj
+.\Purify\vncMenu.obj
+.\Purify\vncProperties.obj
+.\Purify\vncRegion.obj
+.\Purify\vncServer.obj
+.\Purify\vncService.obj
+.\Purify\vncSockConnect.obj
+.\Purify\vncTimedMsgBox.obj
+.\Purify\VSocket.obj
+.\Purify\WinVNC.obj
+.\Purify\WinVNC.res
+.\Purify\VNCHooks.lib
+.\Purify\omnithread_rtd.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\ali\LOCALS~1\Temp\RSP53.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+d3des.c
+Log.cpp
+MinMax.cpp
+RectList.cpp
+stdhdrs.cpp
+translate.cpp
+vncAbout.cpp
+vncAcceptDialog.cpp
+vncAdvancedProperties.cpp
+g:\vnc\vnc_winsrc\winvnc\vnccorbaconnect.h(44) : fatal error C1083: Cannot open include file: 'omniorb2/CORBA.h': No such file or directory
+vncauth.c
+vncBuffer.cpp
+g:\vnc\vnc_winsrc\winvnc\vnccorbaconnect.h(44) : fatal error C1083: Cannot open include file: 'omniorb2/CORBA.h': No such file or directory
+vncClient.cpp
+g:\vnc\vnc_winsrc\winvnc\vnccorbaconnect.h(44) : fatal error C1083: Cannot open include file: 'omniorb2/CORBA.h': No such file or directory
+vncConnDialog.cpp
+g:\vnc\vnc_winsrc\winvnc\vnccorbaconnect.h(44) : fatal error C1083: Cannot open include file: 'omniorb2/CORBA.h': No such file or directory
+vncDesktop.cpp
+g:\vnc\vnc_winsrc\winvnc\vnccorbaconnect.h(44) : fatal error C1083: Cannot open include file: 'omniorb2/CORBA.h': No such file or directory
+vncEncodeCoRRE.cpp
+g:\vnc\vnc_winsrc\winvnc\vnccorbaconnect.h(44) : fatal error C1083: Cannot open include file: 'omniorb2/CORBA.h': No such file or directory
+vncEncodeHexT.cpp
+g:\vnc\vnc_winsrc\winvnc\vnccorbaconnect.h(44) : fatal error C1083: Cannot open include file: 'omniorb2/CORBA.h': No such file or directory
+vncEncoder.cpp
+g:\vnc\vnc_winsrc\winvnc\vnccorbaconnect.h(44) : fatal error C1083: Cannot open include file: 'omniorb2/CORBA.h': No such file or directory
+vncEncodeRRE.cpp
+g:\vnc\vnc_winsrc\winvnc\vnccorbaconnect.h(44) : fatal error C1083: Cannot open include file: 'omniorb2/CORBA.h': No such file or directory
+vncEncodeTight.cpp
+g:\vnc\vnc_winsrc\winvnc\vnccorbaconnect.h(44) : fatal error C1083: Cannot open include file: 'omniorb2/CORBA.h': No such file or directory
+vncEncodeZlib.cpp
+g:\vnc\vnc_winsrc\winvnc\vnccorbaconnect.h(44) : fatal error C1083: Cannot open include file: 'omniorb2/CORBA.h': No such file or directory
+vncEncodeZlibHex.cpp
+g:\vnc\vnc_winsrc\winvnc\vnccorbaconnect.h(44) : fatal error C1083: Cannot open include file: 'omniorb2/CORBA.h': No such file or directory
+vncHTTPConnect.cpp
+g:\vnc\vnc_winsrc\winvnc\vnccorbaconnect.h(44) : fatal error C1083: Cannot open include file: 'omniorb2/CORBA.h': No such file or directory
+vncInstHandler.cpp
+vncKeymap.cpp
+g:\vnc\vnc_winsrc\winvnc\vnckeymap.cpp(313) : warning C4786: 'std::reverse_bidirectional_iterator<std::_Tree<unsigned long,std::pair<unsigned long const ,unsigned char>,std::map<unsigned long,unsigned char,std::less<unsigned long>,std::allocator<unsigned char> >::_Kfn,std::less<unsigned long>,std::allocator<unsigned char> >::iterator,std::pair<unsigned long const ,unsigned char>,std::pair<unsigned long const ,unsigned char> &,std::pair<unsigned long const ,unsigned char> *,int>' : identifier was truncated to '255' characters in the debug information
+g:\vnc\vnc_winsrc\winvnc\vnckeymap.cpp(313) : warning C4786: 'std::reverse_bidirectional_iterator<std::_Tree<unsigned long,std::pair<unsigned long const ,unsigned char>,std::map<unsigned long,unsigned char,std::less<unsigned long>,std::allocator<unsigned char> >::_Kfn,std::less<unsigned long>,std::allocator<unsigned char> >::const_iterator,std::pair<unsigned long const ,unsigned char>,std::pair<unsigned long const ,unsigned char> const &,std::pair<unsigned long const ,unsigned char> const *,int>' : identifier was truncated to '255' characters in the debug information
+g:\vnc\vnc_winsrc\winvnc\vnckeymap.cpp(313) : warning C4786: 'std::pair<std::_Tree<unsigned long,std::pair<unsigned long const ,unsigned char>,std::map<unsigned long,unsigned char,std::less<unsigned long>,std::allocator<unsigned char> >::_Kfn,std::less<unsigned long>,std::allocator<unsigned char> >::iterator,std::_Tree<unsigned long,std::pair<unsigned long const ,unsigned char>,std::map<unsigned long,unsigned char,std::less<unsigned long>,std::allocator<unsigned char> >::_Kfn,std::less<unsigned long>,std::allocator<unsigned char> >::iterator>' : identifier was truncated to '255' characters in the debug information
+g:\vnc\vnc_winsrc\winvnc\vnckeymap.cpp(313) : warning C4786: 'std::pair<std::_Tree<unsigned long,std::pair<unsigned long const ,unsigned char>,std::map<unsigned long,unsigned char,std::less<unsigned long>,std::allocator<unsigned char> >::_Kfn,std::less<unsigned long>,std::allocator<unsigned char> >::const_iterator,std::_Tree<unsigned long,std::pair<unsigned long const ,unsigned char>,std::map<unsigned long,unsigned char,std::less<unsigned long>,std::allocator<unsigned char> >::_Kfn,std::less<unsigned long>,std::allocator<unsigned char> >::const_iterator>' : identifier was truncated to '255' characters in the debug information
+g:\vnc\vnc_winsrc\winvnc\vnckeymap.cpp(313) : warning C4786: 'std::reverse_bidirectional_iterator<std::_Tree<unsigned long,std::pair<unsigned long const ,bool>,std::map<unsigned long,bool,std::less<unsigned long>,std::allocator<bool> >::_Kfn,std::less<unsigned long>,std::allocator<bool> >::iterator,std::pair<unsigned long const ,bool>,std::pair<unsigned long const ,bool> &,std::pair<unsigned long const ,bool> *,int>' : identifier was truncated to '255' characters in the debug information
+g:\vnc\vnc_winsrc\winvnc\vnckeymap.cpp(313) : warning C4786: 'std::reverse_bidirectional_iterator<std::_Tree<unsigned long,std::pair<unsigned long const ,bool>,std::map<unsigned long,bool,std::less<unsigned long>,std::allocator<bool> >::_Kfn,std::less<unsigned long>,std::allocator<bool> >::const_iterator,std::pair<unsigned long const ,bool>,std::pair<unsigned long const ,bool> const &,std::pair<unsigned long const ,bool> const *,int>' : identifier was truncated to '255' characters in the debug information
+g:\vnc\vnc_winsrc\winvnc\vnckeymap.cpp(313) : warning C4786: 'std::pair<std::_Tree<unsigned long,std::pair<unsigned long const ,bool>,std::map<unsigned long,bool,std::less<unsigned long>,std::allocator<bool> >::_Kfn,std::less<unsigned long>,std::allocator<bool> >::iterator,std::_Tree<unsigned long,std::pair<unsigned long const ,bool>,std::map<unsigned long,bool,std::less<unsigned long>,std::allocator<bool> >::_Kfn,std::less<unsigned long>,std::allocator<bool> >::iterator>' : identifier was truncated to '255' characters in the debug information
+g:\vnc\vnc_winsrc\winvnc\vnckeymap.cpp(313) : warning C4786: 'std::pair<std::_Tree<unsigned long,std::pair<unsigned long const ,bool>,std::map<unsigned long,bool,std::less<unsigned long>,std::allocator<bool> >::_Kfn,std::less<unsigned long>,std::allocator<bool> >::const_iterator,std::_Tree<unsigned long,std::pair<unsigned long const ,bool>,std::map<unsigned long,bool,std::less<unsigned long>,std::allocator<bool> >::_Kfn,std::less<unsigned long>,std::allocator<bool> >::const_iterator>' : identifier was truncated to '255' characters in the debug information
+vncMenu.cpp
+g:\vnc\vnc_winsrc\winvnc\vnccorbaconnect.h(44) : fatal error C1083: Cannot open include file: 'omniorb2/CORBA.h': No such file or directory
+vncProperties.cpp
+g:\vnc\vnc_winsrc\winvnc\vnccorbaconnect.h(44) : fatal error C1083: Cannot open include file: 'omniorb2/CORBA.h': No such file or directory
+vncRegion.cpp
+vncServer.cpp
+g:\vnc\vnc_winsrc\winvnc\vnccorbaconnect.h(44) : fatal error C1083: Cannot open include file: 'omniorb2/CORBA.h': No such file or directory
+vncService.cpp
+g:\vnc\vnc_winsrc\winvnc\vnccorbaconnect.h(44) : fatal error C1083: Cannot open include file: 'omniorb2/CORBA.h': No such file or directory
+vncSockConnect.cpp
+g:\vnc\vnc_winsrc\winvnc\vnccorbaconnect.h(44) : fatal error C1083: Cannot open include file: 'omniorb2/CORBA.h': No such file or directory
+vncTimedMsgBox.cpp
+VSocket.cpp
+WinVNC.cpp
+g:\vnc\vnc_winsrc\winvnc\vnccorbaconnect.h(44) : fatal error C1083: Cannot open include file: 'omniorb2/CORBA.h': No such file or directory
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+WinVNC.exe - 19 error(s), 8 warning(s)
+<h3>
+--------------------Configuration: VNCHooks - Win32 No_CORBA--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"..\No_CORBA/VNCHooks.res" /d "NDEBUG" "G:\VNC\vnc_winsrc\winvnc\VNCHooks\VNCHooks.rc"" 
+Creating temporary file "C:\DOCUME~1\ali\LOCALS~1\Temp\RSP54.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "NDEBUG" /D "WIN32" /D "_WINDOWS" /D _WIN32_WINNT=0x0400 /Fp"..\No_CORBA/VNCHooks.pch" /YX /Fo"..\No_CORBA/" /Fd"..\No_CORBA/" /FD /c 
+"G:\VNC\vnc_winsrc\winvnc\VNCHooks\VNCHooks.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ali\LOCALS~1\Temp\RSP54.tmp" 
+Creating temporary file "C:\DOCUME~1\ali\LOCALS~1\Temp\RSP55.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib /nologo /subsystem:windows /dll /incremental:no /pdb:"..\No_CORBA/VNCHooks.pdb" /machine:I386 /def:".\VNCHooks.def" /out:"..\No_CORBA/VNCHooks.dll" /implib:"..\No_CORBA/VNCHooks.lib" 
+\VNC\vnc_winsrc\winvnc\No_CORBA\VNCHooks.obj
+\VNC\vnc_winsrc\winvnc\No_CORBA\VNCHooks.res
+]
+Creating command line "link.exe @C:\DOCUME~1\ali\LOCALS~1\Temp\RSP55.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+VNCHooks.cpp
+Linking...
+   Creating library ..\No_CORBA/VNCHooks.lib and object ..\No_CORBA/VNCHooks.exp
+<h3>
+--------------------Configuration: omnithread - Win32 No_CORBA--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ali\LOCALS~1\Temp\RSP59.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /I "." /D "NDEBUG" /D "WIN32" /D "_WINDOWS" /D "__WIN32__" /D "__NT__" /D "__x86__" /D "_OMNITHREAD_DLL" /Fp"../No_CORBA/omnithread.pch" /YX /Fo"../No_CORBA/" /Fd"../No_CORBA/" /FD /c 
+"G:\VNC\vnc_winsrc\winvnc\omnithread\omnithread\nt.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ali\LOCALS~1\Temp\RSP59.tmp" 
+Creating temporary file "C:\DOCUME~1\ali\LOCALS~1\Temp\RSP5A.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib /nologo /subsystem:windows /dll /incremental:no /pdb:"../No_CORBA/omnithread_rt.pdb" /machine:I386 /out:"../No_CORBA/omnithread_rt.dll" /implib:"../No_CORBA/omnithread_rt.lib" 
+\VNC\vnc_winsrc\winvnc\No_CORBA\nt.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\ali\LOCALS~1\Temp\RSP5A.tmp"
+<h3>Output Window</h3>
+Compiling...
+nt.cpp
+Linking...
+   Creating library ../No_CORBA/omnithread_rt.lib and object ../No_CORBA/omnithread_rt.exp
+<h3>
+--------------------Configuration: zlib - Win32 No_CORBA--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"..\No_CORBA/zlib.res" /d "NDEBUG" "G:\VNC\vnc_winsrc\winvnc\zlib\zlib.rc"" 
+Creating temporary file "C:\DOCUME~1\ali\LOCALS~1\Temp\RSP5E.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "ZLIB_EXPORTS" /D "_ZLIB_DLL" /D "ZLIB_DLL" /Fp"..\No_CORBA/zlib.pch" /YX /Fo"..\No_CORBA/" /Fd"..\No_CORBA/" /FD /c 
+"G:\VNC\vnc_winsrc\winvnc\zlib\adler32.c"
+"G:\VNC\vnc_winsrc\winvnc\zlib\compress.c"
+"G:\VNC\vnc_winsrc\winvnc\zlib\crc32.c"
+"G:\VNC\vnc_winsrc\winvnc\zlib\deflate.c"
+"G:\VNC\vnc_winsrc\winvnc\zlib\infblock.c"
+"G:\VNC\vnc_winsrc\winvnc\zlib\infcodes.c"
+"G:\VNC\vnc_winsrc\winvnc\zlib\inffast.c"
+"G:\VNC\vnc_winsrc\winvnc\zlib\inflate.c"
+"G:\VNC\vnc_winsrc\winvnc\zlib\inftrees.c"
+"G:\VNC\vnc_winsrc\winvnc\zlib\infutil.c"
+"G:\VNC\vnc_winsrc\winvnc\zlib\maketree.c"
+"G:\VNC\vnc_winsrc\winvnc\zlib\trees.c"
+"G:\VNC\vnc_winsrc\winvnc\zlib\uncompr.c"
+"G:\VNC\vnc_winsrc\winvnc\zlib\zutil.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ali\LOCALS~1\Temp\RSP5E.tmp" 
+Creating temporary file "C:\DOCUME~1\ali\LOCALS~1\Temp\RSP5F.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib /nologo /subsystem:windows /dll /incremental:no /pdb:"..\No_CORBA/zlib.pdb" /machine:I386 /def:".\zlib.def" /out:"..\No_CORBA/zlib.dll" /implib:"..\No_CORBA/zlib.lib" 
+\VNC\vnc_winsrc\winvnc\No_CORBA\adler32.obj
+\VNC\vnc_winsrc\winvnc\No_CORBA\compress.obj
+\VNC\vnc_winsrc\winvnc\No_CORBA\crc32.obj
+\VNC\vnc_winsrc\winvnc\No_CORBA\deflate.obj
+\VNC\vnc_winsrc\winvnc\No_CORBA\infblock.obj
+\VNC\vnc_winsrc\winvnc\No_CORBA\infcodes.obj
+\VNC\vnc_winsrc\winvnc\No_CORBA\inffast.obj
+\VNC\vnc_winsrc\winvnc\No_CORBA\inflate.obj
+\VNC\vnc_winsrc\winvnc\No_CORBA\inftrees.obj
+\VNC\vnc_winsrc\winvnc\No_CORBA\infutil.obj
+\VNC\vnc_winsrc\winvnc\No_CORBA\maketree.obj
+\VNC\vnc_winsrc\winvnc\No_CORBA\trees.obj
+\VNC\vnc_winsrc\winvnc\No_CORBA\uncompr.obj
+\VNC\vnc_winsrc\winvnc\No_CORBA\zutil.obj
+\VNC\vnc_winsrc\winvnc\No_CORBA\zlib.res
+]
+Creating command line "link.exe @C:\DOCUME~1\ali\LOCALS~1\Temp\RSP5F.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+adler32.c
+compress.c
+crc32.c
+deflate.c
+infblock.c
+infcodes.c
+inffast.c
+inflate.c
+inftrees.c
+infutil.c
+maketree.c
+trees.c
+uncompr.c
+zutil.c
+Linking...
+   Creating library ..\No_CORBA/zlib.lib and object ..\No_CORBA/zlib.exp
+<h3>
+--------------------Configuration: libjpeg - Win32 No_CORBA--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ali\LOCALS~1\Temp\RSP63.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /Fp"..\No_CORBA/libjpeg.pch" /YX /Fo"..\No_CORBA/" /Fd"..\No_CORBA/" /FD /c 
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jcapimin.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jcapistd.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jccoefct.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jccolor.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jcdctmgr.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jchuff.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jcinit.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jcmainct.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jcmarker.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jcmaster.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jcomapi.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jcparam.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jcphuff.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jcprepct.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jcsample.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jctrans.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jdapimin.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jdapistd.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jdatadst.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jdatasrc.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jdcoefct.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jdcolor.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jddctmgr.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jdhuff.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jdinput.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jdmainct.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jdmarker.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jdmaster.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jdmerge.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jdphuff.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jdpostct.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jdsample.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jdtrans.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jerror.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jfdctflt.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jfdctfst.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jfdctint.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jidctflt.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jidctfst.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jidctint.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jidctred.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jmemmgr.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jmemnobs.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jquant1.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jquant2.c"
+"G:\VNC\vnc_winsrc\winvnc\libjpeg\jutils.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ali\LOCALS~1\Temp\RSP63.tmp" 
+Creating temporary file "C:\DOCUME~1\ali\LOCALS~1\Temp\RSP64.tmp" with contents
+[
+/nologo /out:"..\No_CORBA\libjpeg.lib" 
+\VNC\vnc_winsrc\winvnc\No_CORBA\jcapimin.obj
+\VNC\vnc_winsrc\winvnc\No_CORBA\jcapistd.obj
+\VNC\vnc_winsrc\winvnc\No_CORBA\jccoefct.obj
+\VNC\vnc_winsrc\winvnc\No_CORBA\jccolor.obj
+\VNC\vnc_winsrc\winvnc\No_CORBA\jcdctmgr.obj
+\VNC\vnc_winsrc\winvnc\No_CORBA\jchuff.obj
+\VNC\vnc_winsrc\winvnc\No_CORBA\jcinit.obj
+\VNC\vnc_winsrc\winvnc\No_CORBA\jcmainct.obj
+\VNC\vnc_winsrc\winvnc\No_CORBA\jcmarker.obj
+\VNC\vnc_winsrc\winvnc\No_CORBA\jcmaster.obj
+\VNC\vnc_winsrc\winvnc\No_CORBA\jcomapi.obj
+\VNC\vnc_winsrc\winvnc\No_CORBA\jcparam.obj
+\VNC\vnc_winsrc\winvnc\No_CORBA\jcphuff.obj
+\VNC\vnc_winsrc\winvnc\No_CORBA\jcprepct.obj
+\VNC\vnc_winsrc\winvnc\No_CORBA\jcsample.obj
+\VNC\vnc_winsrc\winvnc\No_CORBA\jctrans.obj
+\VNC\vnc_winsrc\winvnc\No_CORBA\jdapimin.obj
+\VNC\vnc_winsrc\winvnc\No_CORBA\jdapistd.obj
+\VNC\vnc_winsrc\winvnc\No_CORBA\jdatadst.obj
+\VNC\vnc_winsrc\winvnc\No_CORBA\jdatasrc.obj
+\VNC\vnc_winsrc\winvnc\No_CORBA\jdcoefct.obj
+\VNC\vnc_winsrc\winvnc\No_CORBA\jdcolor.obj
+\VNC\vnc_winsrc\winvnc\No_CORBA\jddctmgr.obj
+\VNC\vnc_winsrc\winvnc\No_CORBA\jdhuff.obj
+\VNC\vnc_winsrc\winvnc\No_CORBA\jdinput.obj
+\VNC\vnc_winsrc\winvnc\No_CORBA\jdmainct.obj
+\VNC\vnc_winsrc\winvnc\No_CORBA\jdmarker.obj
+\VNC\vnc_winsrc\winvnc\No_CORBA\jdmaster.obj
+\VNC\vnc_winsrc\winvnc\No_CORBA\jdmerge.obj
+\VNC\vnc_winsrc\winvnc\No_CORBA\jdphuff.obj
+\VNC\vnc_winsrc\winvnc\No_CORBA\jdpostct.obj
+\VNC\vnc_winsrc\winvnc\No_CORBA\jdsample.obj
+\VNC\vnc_winsrc\winvnc\No_CORBA\jdtrans.obj
+\VNC\vnc_winsrc\winvnc\No_CORBA\jerror.obj
+\VNC\vnc_winsrc\winvnc\No_CORBA\jfdctflt.obj
+\VNC\vnc_winsrc\winvnc\No_CORBA\jfdctfst.obj
+\VNC\vnc_winsrc\winvnc\No_CORBA\jfdctint.obj
+\VNC\vnc_winsrc\winvnc\No_CORBA\jidctflt.obj
+\VNC\vnc_winsrc\winvnc\No_CORBA\jidctfst.obj
+\VNC\vnc_winsrc\winvnc\No_CORBA\jidctint.obj
+\VNC\vnc_winsrc\winvnc\No_CORBA\jidctred.obj
+\VNC\vnc_winsrc\winvnc\No_CORBA\jmemmgr.obj
+\VNC\vnc_winsrc\winvnc\No_CORBA\jmemnobs.obj
+\VNC\vnc_winsrc\winvnc\No_CORBA\jquant1.obj
+\VNC\vnc_winsrc\winvnc\No_CORBA\jquant2.obj
+\VNC\vnc_winsrc\winvnc\No_CORBA\jutils.obj
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\ali\LOCALS~1\Temp\RSP64.tmp"
+<h3>Output Window</h3>
+Compiling...
+jcapimin.c
+jcapistd.c
+jccoefct.c
+jccolor.c
+jcdctmgr.c
+jchuff.c
+jcinit.c
+jcmainct.c
+jcmarker.c
+jcmaster.c
+jcomapi.c
+jcparam.c
+jcphuff.c
+jcprepct.c
+jcsample.c
+jctrans.c
+jdapimin.c
+jdapistd.c
+jdatadst.c
+jdatasrc.c
+jdcoefct.c
+jdcolor.c
+jddctmgr.c
+jdhuff.c
+jdinput.c
+jdmainct.c
+jdmarker.c
+jdmaster.c
+jdmerge.c
+jdphuff.c
+jdpostct.c
+jdsample.c
+jdtrans.c
+jerror.c
+jfdctflt.c
+jfdctfst.c
+jfdctint.c
+jidctflt.c
+jidctfst.c
+jidctint.c
+jidctred.c
+jmemmgr.c
+jmemnobs.c
+jquant1.c
+jquant2.c
+jutils.c
+Creating library...
+<h3>
+--------------------Configuration: WinVNC - Win32 No_CORBA--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"No_CORBA/WinVNC.res" /d "NDEBUG" "G:\VNC\vnc_winsrc\winvnc\WinVNC.rc"" 
+Creating temporary file "C:\DOCUME~1\ali\LOCALS~1\Temp\RSP65.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "./omnithread" /I "./zlib" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "__WIN32__" /D "__NT__" /D "__x86__" /D "_WINSTATIC" /D "NCORBA" /D "ZLIB_DLL" /D "XMD_H" /Fr"No_CORBA/" /Fp"No_CORBA/WinVNC.pch" /YX /Fo"No_CORBA/" /Fd"No_CORBA/" /FD /c 
+"G:\VNC\vnc_winsrc\winvnc\d3des.c"
+"G:\VNC\vnc_winsrc\winvnc\Log.cpp"
+"G:\VNC\vnc_winsrc\winvnc\MinMax.cpp"
+"G:\VNC\vnc_winsrc\winvnc\RectList.cpp"
+"G:\VNC\vnc_winsrc\winvnc\stdhdrs.cpp"
+"G:\VNC\vnc_winsrc\winvnc\translate.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncAbout.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncAcceptDialog.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncAdvancedProperties.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncauth.c"
+"G:\VNC\vnc_winsrc\winvnc\vncBuffer.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncClient.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncConnDialog.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncDesktop.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncEncodeCoRRE.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncEncodeHexT.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncEncoder.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncEncodeRRE.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncEncodeTight.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncEncodeZlib.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncEncodeZlibHex.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncHTTPConnect.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncInstHandler.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncKeymap.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncMenu.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncProperties.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncRegion.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncServer.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncService.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncSockConnect.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncTimedMsgBox.cpp"
+"G:\VNC\vnc_winsrc\winvnc\VSocket.cpp"
+"G:\VNC\vnc_winsrc\winvnc\WinVNC.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ali\LOCALS~1\Temp\RSP65.tmp" 
+Creating temporary file "C:\DOCUME~1\ali\LOCALS~1\Temp\RSP66.tmp" with contents
+[
+wsock32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib /nologo /subsystem:windows /incremental:no /pdb:"No_CORBA/WinVNC.pdb" /machine:I386 /nodefaultlib:"LIBC" /out:"No_CORBA/WinVNC.exe" 
+.\No_CORBA\d3des.obj
+.\No_CORBA\Log.obj
+.\No_CORBA\MinMax.obj
+.\No_CORBA\RectList.obj
+.\No_CORBA\stdhdrs.obj
+.\No_CORBA\translate.obj
+.\No_CORBA\vncAbout.obj
+.\No_CORBA\vncAcceptDialog.obj
+.\No_CORBA\vncAdvancedProperties.obj
+.\No_CORBA\vncauth.obj
+.\No_CORBA\vncBuffer.obj
+.\No_CORBA\vncClient.obj
+.\No_CORBA\vncConnDialog.obj
+.\No_CORBA\vncDesktop.obj
+.\No_CORBA\vncEncodeCoRRE.obj
+.\No_CORBA\vncEncodeHexT.obj
+.\No_CORBA\vncEncoder.obj
+.\No_CORBA\vncEncodeRRE.obj
+.\No_CORBA\vncEncodeTight.obj
+.\No_CORBA\vncEncodeZlib.obj
+.\No_CORBA\vncEncodeZlibHex.obj
+.\No_CORBA\vncHTTPConnect.obj
+.\No_CORBA\vncInstHandler.obj
+.\No_CORBA\vncKeymap.obj
+.\No_CORBA\vncMenu.obj
+.\No_CORBA\vncProperties.obj
+.\No_CORBA\vncRegion.obj
+.\No_CORBA\vncServer.obj
+.\No_CORBA\vncService.obj
+.\No_CORBA\vncSockConnect.obj
+.\No_CORBA\vncTimedMsgBox.obj
+.\No_CORBA\VSocket.obj
+.\No_CORBA\WinVNC.obj
+.\No_CORBA\WinVNC.res
+.\No_CORBA\VNCHooks.lib
+.\No_CORBA\omnithread_rt.lib
+.\No_CORBA\zlib.lib
+.\No_CORBA\libjpeg.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\ali\LOCALS~1\Temp\RSP66.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+d3des.c
+Log.cpp
+MinMax.cpp
+RectList.cpp
+stdhdrs.cpp
+translate.cpp
+vncAbout.cpp
+vncAcceptDialog.cpp
+vncAdvancedProperties.cpp
+vncauth.c
+vncBuffer.cpp
+vncClient.cpp
+vncConnDialog.cpp
+vncDesktop.cpp
+vncEncodeCoRRE.cpp
+vncEncodeHexT.cpp
+vncEncoder.cpp
+vncEncodeRRE.cpp
+vncEncodeTight.cpp
+vncEncodeZlib.cpp
+vncEncodeZlibHex.cpp
+vncHTTPConnect.cpp
+vncInstHandler.cpp
+vncKeymap.cpp
+vncMenu.cpp
+vncProperties.cpp
+vncRegion.cpp
+vncServer.cpp
+vncService.cpp
+vncSockConnect.cpp
+vncTimedMsgBox.cpp
+VSocket.cpp
+WinVNC.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+WinVNC.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: VNCHooks - Win32 Profile--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x809 /fo"../Profile/VNCHooks.res" /d "_DEBUG" "G:\VNC\vnc_winsrc\winvnc\VNCHooks\VNCHooks.rc"" 
+Creating temporary file "C:\DOCUME~1\ali\LOCALS~1\Temp\RSP68.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D _WIN32_WINNT=0x0400 /Fp"../Profile/VNCHooks.pch" /YX /Fo"../Profile/" /Fd"../Profile/" /FD /c 
+"G:\VNC\vnc_winsrc\winvnc\VNCHooks\VNCHooks.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ali\LOCALS~1\Temp\RSP68.tmp" 
+Creating temporary file "C:\DOCUME~1\ali\LOCALS~1\Temp\RSP69.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib /nologo /subsystem:windows /dll /profile /debug /machine:I386 /def:".\VNCHooks.def" /out:"../Profile/VNCHooks.dll" /implib:"../Profile/VNCHooks.lib" 
+\VNC\vnc_winsrc\winvnc\Profile\VNCHooks.obj
+\VNC\vnc_winsrc\winvnc\Profile\VNCHooks.res
+]
+Creating command line "link.exe @C:\DOCUME~1\ali\LOCALS~1\Temp\RSP69.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+Skipping... (no relevant changes detected)
+VNCHooks.cpp
+Linking...
+   Creating library ../Profile/VNCHooks.lib and object ../Profile/VNCHooks.exp
+<h3>
+--------------------Configuration: omnithread - Win32 Profile--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ali\LOCALS~1\Temp\RSP6D.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /I "." /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D "__WIN32__" /D "__NT__" /D "__x86__" /D "_OMNITHREAD_DLL" /Fp"../Profile/omnithread.pch" /YX /Fo"../Profile/" /Fd"../Profile/" /FD /c 
+"G:\VNC\vnc_winsrc\winvnc\omnithread\omnithread\nt.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ali\LOCALS~1\Temp\RSP6D.tmp" 
+Creating temporary file "C:\DOCUME~1\ali\LOCALS~1\Temp\RSP6E.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib /nologo /subsystem:windows /dll /profile /debug /machine:I386 /out:"../Profile/omnithread_rtd.dll" /implib:"../Profile/omnithread_rtd.lib" 
+\VNC\vnc_winsrc\winvnc\Profile\nt.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\ali\LOCALS~1\Temp\RSP6E.tmp"
+<h3>Output Window</h3>
+Compiling...
+nt.cpp
+Linking...
+   Creating library ../Profile/omnithread_rtd.lib and object ../Profile/omnithread_rtd.exp
+<h3>
+--------------------Configuration: WinVNC - Win32 Profile--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x809 /fo"Profile/WinVNC.res" /d "_DEBUG" "G:\VNC\vnc_winsrc\winvnc\WinVNC.rc"" 
+Creating temporary file "C:\DOCUME~1\ali\LOCALS~1\Temp\RSP72.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "./omnithread" /I "\\shallot\omni\release\include" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "__WIN32__" /D "__NT__" /D "__x86__" /D "_CORBA" /Fp"Profile/WinVNC.pch" /YX /Fo"Profile/" /Fd"Profile/" /FD /c 
+"G:\VNC\vnc_winsrc\winvnc\d3des.c"
+"G:\VNC\vnc_winsrc\winvnc\Log.cpp"
+"G:\VNC\vnc_winsrc\winvnc\MinMax.cpp"
+"G:\VNC\vnc_winsrc\winvnc\RectList.cpp"
+"G:\VNC\vnc_winsrc\winvnc\stdhdrs.cpp"
+"G:\VNC\vnc_winsrc\winvnc\translate.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncAbout.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncAcceptDialog.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncAdvancedProperties.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncauth.c"
+"G:\VNC\vnc_winsrc\winvnc\vncBuffer.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncClient.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncConnDialog.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncDesktop.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncEncodeCoRRE.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncEncodeHexT.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncEncoder.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncEncodeRRE.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncEncodeTight.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncEncodeZlib.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncEncodeZlibHex.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncHTTPConnect.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncInstHandler.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncKeymap.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncMenu.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncProperties.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncRegion.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncServer.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncService.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncSockConnect.cpp"
+"G:\VNC\vnc_winsrc\winvnc\vncTimedMsgBox.cpp"
+"G:\VNC\vnc_winsrc\winvnc\VSocket.cpp"
+"G:\VNC\vnc_winsrc\winvnc\WinVNC.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ali\LOCALS~1\Temp\RSP72.tmp" 
+Creating temporary file "C:\DOCUME~1\ali\LOCALS~1\Temp\RSP73.tmp" with contents
+[
+omniORB260_rtd.lib wsock32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib /nologo /subsystem:windows /profile /debug /machine:I386 /out:"Profile/WinVNC.exe" /libpath:"\\shallot\omni\release\lib\x86_nt_3.5" 
+.\Profile\d3des.obj
+.\Profile\Log.obj
+.\Profile\MinMax.obj
+.\Profile\RectList.obj
+.\Profile\stdhdrs.obj
+.\Profile\translate.obj
+.\Profile\vncAbout.obj
+.\Profile\vncAcceptDialog.obj
+.\Profile\vncAdvancedProperties.obj
+.\Profile\vncauth.obj
+.\Profile\vncBuffer.obj
+.\Profile\vncClient.obj
+.\Profile\vncConnDialog.obj
+.\Profile\vncDesktop.obj
+.\Profile\vncEncodeCoRRE.obj
+.\Profile\vncEncodeHexT.obj
+.\Profile\vncEncoder.obj
+.\Profile\vncEncodeRRE.obj
+.\Profile\vncEncodeTight.obj
+.\Profile\vncEncodeZlib.obj
+.\Profile\vncEncodeZlibHex.obj
+.\Profile\vncHTTPConnect.obj
+.\Profile\vncInstHandler.obj
+.\Profile\vncKeymap.obj
+.\Profile\vncMenu.obj
+.\Profile\vncProperties.obj
+.\Profile\vncRegion.obj
+.\Profile\vncServer.obj
+.\Profile\vncService.obj
+.\Profile\vncSockConnect.obj
+.\Profile\vncTimedMsgBox.obj
+.\Profile\VSocket.obj
+.\Profile\WinVNC.obj
+.\Profile\WinVNC.res
+.\Profile\VNCHooks.lib
+.\Profile\omnithread_rtd.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\ali\LOCALS~1\Temp\RSP73.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+d3des.c
+Log.cpp
+MinMax.cpp
+RectList.cpp
+stdhdrs.cpp
+translate.cpp
+vncAbout.cpp
+vncAcceptDialog.cpp
+vncAdvancedProperties.cpp
+g:\vnc\vnc_winsrc\winvnc\vnccorbaconnect.h(44) : fatal error C1083: Cannot open include file: 'omniorb2/CORBA.h': No such file or directory
+vncauth.c
+vncBuffer.cpp
+g:\vnc\vnc_winsrc\winvnc\vnccorbaconnect.h(44) : fatal error C1083: Cannot open include file: 'omniorb2/CORBA.h': No such file or directory
+vncClient.cpp
+g:\vnc\vnc_winsrc\winvnc\vnccorbaconnect.h(44) : fatal error C1083: Cannot open include file: 'omniorb2/CORBA.h': No such file or directory
+vncConnDialog.cpp
+g:\vnc\vnc_winsrc\winvnc\vnccorbaconnect.h(44) : fatal error C1083: Cannot open include file: 'omniorb2/CORBA.h': No such file or directory
+vncDesktop.cpp
+g:\vnc\vnc_winsrc\winvnc\vnccorbaconnect.h(44) : fatal error C1083: Cannot open include file: 'omniorb2/CORBA.h': No such file or directory
+vncEncodeCoRRE.cpp
+g:\vnc\vnc_winsrc\winvnc\vnccorbaconnect.h(44) : fatal error C1083: Cannot open include file: 'omniorb2/CORBA.h': No such file or directory
+vncEncodeHexT.cpp
+g:\vnc\vnc_winsrc\winvnc\vnccorbaconnect.h(44) : fatal error C1083: Cannot open include file: 'omniorb2/CORBA.h': No such file or directory
+vncEncoder.cpp
+g:\vnc\vnc_winsrc\winvnc\vnccorbaconnect.h(44) : fatal error C1083: Cannot open include file: 'omniorb2/CORBA.h': No such file or directory
+vncEncodeRRE.cpp
+g:\vnc\vnc_winsrc\winvnc\vnccorbaconnect.h(44) : fatal error C1083: Cannot open include file: 'omniorb2/CORBA.h': No such file or directory
+vncEncodeTight.cpp
+g:\vnc\vnc_winsrc\winvnc\vnccorbaconnect.h(44) : fatal error C1083: Cannot open include file: 'omniorb2/CORBA.h': No such file or directory
+vncEncodeZlib.cpp
+g:\vnc\vnc_winsrc\winvnc\vnccorbaconnect.h(44) : fatal error C1083: Cannot open include file: 'omniorb2/CORBA.h': No such file or directory
+vncEncodeZlibHex.cpp
+g:\vnc\vnc_winsrc\winvnc\vnccorbaconnect.h(44) : fatal error C1083: Cannot open include file: 'omniorb2/CORBA.h': No such file or directory
+vncHTTPConnect.cpp
+g:\vnc\vnc_winsrc\winvnc\vnccorbaconnect.h(44) : fatal error C1083: Cannot open include file: 'omniorb2/CORBA.h': No such file or directory
+vncInstHandler.cpp
+vncKeymap.cpp
+g:\vnc\vnc_winsrc\winvnc\vnckeymap.cpp(313) : warning C4786: 'std::reverse_bidirectional_iterator<std::_Tree<unsigned long,std::pair<unsigned long const ,unsigned char>,std::map<unsigned long,unsigned char,std::less<unsigned long>,std::allocator<unsigned char> >::_Kfn,std::less<unsigned long>,std::allocator<unsigned char> >::iterator,std::pair<unsigned long const ,unsigned char>,std::pair<unsigned long const ,unsigned char> &,std::pair<unsigned long const ,unsigned char> *,int>' : identifier was truncated to '255' characters in the debug information
+g:\vnc\vnc_winsrc\winvnc\vnckeymap.cpp(313) : warning C4786: 'std::reverse_bidirectional_iterator<std::_Tree<unsigned long,std::pair<unsigned long const ,unsigned char>,std::map<unsigned long,unsigned char,std::less<unsigned long>,std::allocator<unsigned char> >::_Kfn,std::less<unsigned long>,std::allocator<unsigned char> >::const_iterator,std::pair<unsigned long const ,unsigned char>,std::pair<unsigned long const ,unsigned char> const &,std::pair<unsigned long const ,unsigned char> const *,int>' : identifier was truncated to '255' characters in the debug information
+g:\vnc\vnc_winsrc\winvnc\vnckeymap.cpp(313) : warning C4786: 'std::pair<std::_Tree<unsigned long,std::pair<unsigned long const ,unsigned char>,std::map<unsigned long,unsigned char,std::less<unsigned long>,std::allocator<unsigned char> >::_Kfn,std::less<unsigned long>,std::allocator<unsigned char> >::iterator,std::_Tree<unsigned long,std::pair<unsigned long const ,unsigned char>,std::map<unsigned long,unsigned char,std::less<unsigned long>,std::allocator<unsigned char> >::_Kfn,std::less<unsigned long>,std::allocator<unsigned char> >::iterator>' : identifier was truncated to '255' characters in the debug information
+g:\vnc\vnc_winsrc\winvnc\vnckeymap.cpp(313) : warning C4786: 'std::pair<std::_Tree<unsigned long,std::pair<unsigned long const ,unsigned char>,std::map<unsigned long,unsigned char,std::less<unsigned long>,std::allocator<unsigned char> >::_Kfn,std::less<unsigned long>,std::allocator<unsigned char> >::const_iterator,std::_Tree<unsigned long,std::pair<unsigned long const ,unsigned char>,std::map<unsigned long,unsigned char,std::less<unsigned long>,std::allocator<unsigned char> >::_Kfn,std::less<unsigned long>,std::allocator<unsigned char> >::const_iterator>' : identifier was truncated to '255' characters in the debug information
+g:\vnc\vnc_winsrc\winvnc\vnckeymap.cpp(313) : warning C4786: 'std::reverse_bidirectional_iterator<std::_Tree<unsigned long,std::pair<unsigned long const ,bool>,std::map<unsigned long,bool,std::less<unsigned long>,std::allocator<bool> >::_Kfn,std::less<unsigned long>,std::allocator<bool> >::iterator,std::pair<unsigned long const ,bool>,std::pair<unsigned long const ,bool> &,std::pair<unsigned long const ,bool> *,int>' : identifier was truncated to '255' characters in the debug information
+g:\vnc\vnc_winsrc\winvnc\vnckeymap.cpp(313) : warning C4786: 'std::reverse_bidirectional_iterator<std::_Tree<unsigned long,std::pair<unsigned long const ,bool>,std::map<unsigned long,bool,std::less<unsigned long>,std::allocator<bool> >::_Kfn,std::less<unsigned long>,std::allocator<bool> >::const_iterator,std::pair<unsigned long const ,bool>,std::pair<unsigned long const ,bool> const &,std::pair<unsigned long const ,bool> const *,int>' : identifier was truncated to '255' characters in the debug information
+g:\vnc\vnc_winsrc\winvnc\vnckeymap.cpp(313) : warning C4786: 'std::pair<std::_Tree<unsigned long,std::pair<unsigned long const ,bool>,std::map<unsigned long,bool,std::less<unsigned long>,std::allocator<bool> >::_Kfn,std::less<unsigned long>,std::allocator<bool> >::iterator,std::_Tree<unsigned long,std::pair<unsigned long const ,bool>,std::map<unsigned long,bool,std::less<unsigned long>,std::allocator<bool> >::_Kfn,std::less<unsigned long>,std::allocator<bool> >::iterator>' : identifier was truncated to '255' characters in the debug information
+g:\vnc\vnc_winsrc\winvnc\vnckeymap.cpp(313) : warning C4786: 'std::pair<std::_Tree<unsigned long,std::pair<unsigned long const ,bool>,std::map<unsigned long,bool,std::less<unsigned long>,std::allocator<bool> >::_Kfn,std::less<unsigned long>,std::allocator<bool> >::const_iterator,std::_Tree<unsigned long,std::pair<unsigned long const ,bool>,std::map<unsigned long,bool,std::less<unsigned long>,std::allocator<bool> >::_Kfn,std::less<unsigned long>,std::allocator<bool> >::const_iterator>' : identifier was truncated to '255' characters in the debug information
+vncMenu.cpp
+g:\vnc\vnc_winsrc\winvnc\vnccorbaconnect.h(44) : fatal error C1083: Cannot open include file: 'omniorb2/CORBA.h': No such file or directory
+vncProperties.cpp
+g:\vnc\vnc_winsrc\winvnc\vnccorbaconnect.h(44) : fatal error C1083: Cannot open include file: 'omniorb2/CORBA.h': No such file or directory
+vncRegion.cpp
+vncServer.cpp
+g:\vnc\vnc_winsrc\winvnc\vnccorbaconnect.h(44) : fatal error C1083: Cannot open include file: 'omniorb2/CORBA.h': No such file or directory
+vncService.cpp
+g:\vnc\vnc_winsrc\winvnc\vnccorbaconnect.h(44) : fatal error C1083: Cannot open include file: 'omniorb2/CORBA.h': No such file or directory
+vncSockConnect.cpp
+g:\vnc\vnc_winsrc\winvnc\vnccorbaconnect.h(44) : fatal error C1083: Cannot open include file: 'omniorb2/CORBA.h': No such file or directory
+vncTimedMsgBox.cpp
+VSocket.cpp
+WinVNC.cpp
+g:\vnc\vnc_winsrc\winvnc\vnccorbaconnect.h(44) : fatal error C1083: Cannot open include file: 'omniorb2/CORBA.h': No such file or directory
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+WinVNC.exe - 19 error(s), 8 warning(s)
+</pre>
+</body>
+</html>
